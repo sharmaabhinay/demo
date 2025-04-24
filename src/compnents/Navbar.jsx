@@ -9,10 +9,10 @@ const Navbar = () => {
             
         </div>
         <div className='flex gap-20 '>
-            <div>About me</div>
-            <div>Skills</div>
-            <div>Hobbies & interest</div>
-            <div>Passion</div>
+            <div className='hover:border-b-2 border-orange-400'>About me</div>
+            <div className='hover:border-b-2 border-orange-400'>Skills</div>
+            <div className='hover:border-b-2 border-orange-400'>Hobbies & interest</div>
+            <div className='hover:border-b-2 border-orange-400'>Passion</div>
         </div>
     </div>
   )
